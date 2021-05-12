@@ -1,0 +1,29 @@
+{
+  "name": "srcnn-tfjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "train": "tsc && node ./src/indexWavelet",
+    "predict": "tsc && node ./src/predictWavelet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasyaInformatica/SRCNN-tfjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasyaInformatica/SRCNN-tfjs/issues"
+  },
+  "homepage": "https://github.com/VasyaInformatica/SRCNN-tfjs#readme",
+  "devDependencies": {
+    "@types/sharp": "^0.28.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "sharp": "^0.28.1"
+  }
+}
